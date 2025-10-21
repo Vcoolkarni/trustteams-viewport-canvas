@@ -16,19 +16,23 @@ const Footer = () => {
   return (
     <footer className="bg-background border-t border-border" id="contact">
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-primary to-accent py-16">
+      <div className="bg-gradient-to-br from-primary via-[#7c7aff] to-accent py-20">
         <div className="container mx-auto px-4 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
+          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
             Ready to Transform Your Partnerships?
           </h2>
-          <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
             Join thousands of universities and industry partners building the future workforce together.
           </p>
+          <p className="text-sm text-white/70 mb-8">
+            No credit card required • Free 14-day trial • Cancel anytime
+          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary">
+            <Button size="lg" className="bg-white text-primary hover:bg-white/90">
               Start Free Trial
+              <ArrowUp className="ml-2 rotate-45" />
             </Button>
-            <Button size="lg" variant="outline" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-primary">
+            <Button size="lg" variant="outline" className="border-2 border-white bg-transparent text-white hover:bg-white/10">
               Schedule Demo
             </Button>
           </div>
