@@ -42,10 +42,10 @@ const PersonaFeatures = () => {
     <section className="min-h-screen flex items-center py-20 bg-background" id="solutions">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-12 animate-fade-up">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-4">
             Solutions for Every User
           </h2>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-lg text-muted-foreground">
             Tailored experiences that drive success across all stakeholders
           </p>
         </div>
@@ -57,11 +57,10 @@ const PersonaFeatures = () => {
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
               variant={activeTab === tab.id ? "default" : "outline"}
-              size="lg"
               className={`transition-all duration-300 ${
                 activeTab === tab.id
-                  ? "bg-primary text-primary-foreground glow-primary scale-105"
-                  : "hover:border-primary"
+                  ? "glow-primary scale-105"
+                  : ""
               }`}
             >
               <tab.icon className="w-5 h-5 mr-2" />

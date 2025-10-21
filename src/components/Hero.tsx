@@ -15,25 +15,25 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Side - Content */}
           <div className="space-y-8 animate-fade-in">
-            <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
+            <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
               Connecting{" "}
               <span className="text-gradient">Universities</span> with{" "}
               <span className="text-gradient">Industry Partners</span> for
               Meaningful Student Success
             </h1>
             
-            <p className="text-xl text-muted-foreground max-w-xl">
+            <p className="text-lg text-muted-foreground max-w-xl">
               Transform collaboration between educational institutions and industry
               leaders. Build the future workforce together with smart matching,
               verified partnerships, and seamless integration.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 glow-primary text-lg group">
+              <Button size="lg" className="glow-primary group">
                 Start Free Trial
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button size="lg" variant="outline" className="text-lg border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+              <Button size="lg" variant="outline" className="border-2">
                 Schedule Demo
               </Button>
             </div>

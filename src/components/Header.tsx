@@ -50,10 +50,10 @@ const Header = () => {
 
           {/* Desktop Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+            <Button variant="outline">
               Login
             </Button>
-            <Button className="bg-primary hover:bg-primary/90 glow-primary">
+            <Button className="glow-primary">
               Get Started
             </Button>
           </div>
@@ -85,7 +85,7 @@ const Header = () => {
                 <Button variant="outline" className="w-full">
                   Login
                 </Button>
-                <Button className="w-full bg-primary">Get Started</Button>
+                <Button className="w-full">Get Started</Button>
               </div>
             </nav>
           </div>

@@ -73,7 +73,7 @@ const TrustFeedback = () => {
 
         {/* Feedback Carousel */}
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl lg:text-5xl font-bold text-center mb-12 animate-fade-up">
+          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12 animate-fade-up">
             What Our Users Say
           </h2>
           
@@ -87,7 +87,7 @@ const TrustFeedback = () => {
               </div>
 
               {/* Feedback Text */}
-              <blockquote className="text-xl lg:text-2xl text-center text-foreground mb-8 leading-relaxed italic">
+              <blockquote className="text-lg lg:text-xl text-center text-foreground mb-8 leading-relaxed italic">
                 "{feedbacks[currentFeedback].text}"
               </blockquote>
 

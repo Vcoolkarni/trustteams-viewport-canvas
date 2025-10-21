@@ -20,10 +20,10 @@ const ChallengesSolutions = () => {
     <section className="min-h-screen flex items-center py-20 bg-background" id="features">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-16 animate-fade-up">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-4">
             Transforming University–Industry Collaboration
           </h2>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-lg text-muted-foreground">
             Breaking down barriers and building bridges for student success
           </p>
         </div>

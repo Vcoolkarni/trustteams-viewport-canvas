@@ -21,14 +21,14 @@ const Footer = () => {
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
             Ready to Transform Your Partnerships?
           </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
             Join thousands of universities and industry partners building the future workforce together.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="text-lg">
+            <Button size="lg" variant="secondary">
               Start Free Trial
             </Button>
-            <Button size="lg" variant="outline" className="text-lg border-2 border-white text-white hover:bg-white hover:text-primary">
+            <Button size="lg" variant="outline" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-primary">
               Schedule Demo
             </Button>
           </div>
